@@ -1,0 +1,66 @@
+.sec3{
+	height: fit-content;
+}
+
+.sec3-text-area{
+	display: inline-block;
+	float: right;
+	width: 50%;
+}
+
+
+.sec3-heading{
+    
+    letter-spacing: 5px;
+    font-size: 64px;
+    font-style: oblique;
+    padding-top: 20px;
+}
+
+.sec3-para1{
+	font-size: 30px;
+	margin-right: 140px;
+	margin-top: 50px;
+}
+
+.sec3-sub-para2{
+	margin-top: 40px;
+}
+
+
+.sec3-sub-heading{
+	font-size: 38px;
+	letter-spacing: 3px;
+	font-style: oblique;
+	margin-top: 140px;
+
+
+}
+
+.sec3-para2{
+	font-size: 19px;
+}
+
+
+.sec3-sub-para3{
+	padding-top:30px ;
+}
+
+.sec3-sub-para4{
+	padding-top:30px ;
+}
+
+
+.sec3-div-img{
+	display: inline-block;
+	width: 50%;
+	
+}
+
+.sec3-img{
+	border: 4px solid white;
+	border-radius:15px 100px ;
+	width: 500px;
+	height: 700px;
+	margin: 40px;
+}

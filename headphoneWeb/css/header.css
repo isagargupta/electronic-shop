@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background-image: linear-gradient(to right, skyblue, orchid);
+	margin: 0;
+}
+
+
+.header{
+	height: 110vh;
+}
+
+.header-text-part{
+	display: inline-block;
+}
+
+.header-text{
+    margin: 70px;
+    text-align: center;
+    margin-top: 43%;
+    	animation-name: headertext;
+	animation-duration: 2s;
+}
+
+.header-text1{
+	font-size: 100px;
+	font-style: oblique;
+	animation-name: headertext;
+	animation-duration: 2s;
+}
+
+.header-text2{
+	font-size: 105px;
+}
+
+
+
+
+.header-button,.sec2-btn{
+    margin: 70px;
+    text-align: center;
+}
+
+.header-button-btn1:hover{
+	transform: translateY(-3px);
+	box-shadow: 1 1 2 gray;
+}
+.header-button-btn1:active{
+	transform: translateY(-1px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+.section2-button:active{
+	transform: translateY(-1px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+
+.header-button-btn2:active{
+	transform: translateY(-1px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+
+.header-button-btn1{
+	font-size: 24px;
+	border-radius: 30px;
+	padding: 12px;
+	padding-inline: 40px;
+	margin: 10px;
+	background-color: white;
+	border-style: none;
+}
+.header-button-btn2,.section2-button{
+	font-size: 24px;
+	border-radius: 30px;
+	padding: 12px;
+	margin: 10px;
+	border-style: none;
+	padding-inline: 40px;
+	background-color: white;
+	opacity: 0.5;
+}
+
+.header-button-btn2:hover{
+	opacity: 1;
+	transform: translateY(-3px);
+	box-shadow: 1 1 2 gray;
+}
+
+.section2-button:hover{
+	opacity: 1;
+	transform: translateY(-3px);
+	box-shadow: 1 1 2 gray;
+}
+
+
+
+.header-image{
+	display: inline-block;
+	float: right;
+
+}
+
+.header-image-indiv{
+	width: 700px;
+	float: left;
+	margin-top: 17%;
+
+}
+
+
+
+@keyframes headingtext{
+	0% {
+		opacity: 0;
+		transform: translate(-10rem);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+
+.header-image{
+	transition: transform 0.8s;
+  transform-style: preserve-3d;
+    position: relative;
+ 
+}
+
+
+.header-image:hover .header-image-indiv{
+  transform: rotateY(180deg);
+}

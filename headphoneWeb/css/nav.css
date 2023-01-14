@@ -1,0 +1,101 @@
+.nav{
+	height: fit-content;
+	background-color: white;
+	overflow: auto;
+
+}
+
+.nav-div1{
+	display: inline-block;
+	width: 30%;
+}
+
+.nav-div1-heading{
+	margin: 6px;
+	margin-inline-start:40px ;
+	font-size: 48px;
+	font-style: oblique;
+}
+
+.nav-div2{
+	display: inline-block;
+	width: 50%;
+	float: right;
+	padding-inline-end: 30px;
+}
+.nav-table1{
+	display: inline-block;
+/*	position: fixed;*/
+
+   
+    
+}
+
+.nav-sub-table1{
+	font-size: 28px;
+
+}
+
+.inside-table1{
+	  padding: 9px;
+     padding-inline: 20px;
+     padding-inline-start: 20px;
+     font-weight: bold;
+}
+
+.nav-table2{
+	display: inline-block;
+	
+	float: right;
+	
+
+}
+
+.nav-sub-table2{
+	font-size: 28px;
+	margin: 11px;
+	
+}
+
+.inside-btn1{
+	font-size: 28px;
+	padding: 9px;
+	border-radius: 1px;
+	border-style: none;
+	padding-inline: 20px;
+	background-color: blueviolet;
+	color: white;
+	padding-top: 3px;
+	margin: 2px;
+	border: 1px solid blueviolet;
+	
+}
+
+.inside-btn1:hover{
+	transform: translateY(-1px);
+	background-color: darkblue;
+}
+
+.inside-btn1:active{
+	box-shadow: ;
+}
+
+
+.inside-btn2{
+	font-size: 28px;
+	padding: 9px;
+	padding-top: 3px;
+	border-radius: 1px;
+	border-style: none;
+	padding-inline: 20px;
+	color: black;
+	background-color: transparent;
+	border: 1px solid blueviolet;
+	
+}
+
+.inside-btn2:hover{
+	transform: translateY(-1px);
+	background-color: darkblue;
+	color: white;
+}
